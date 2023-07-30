@@ -2,7 +2,6 @@ import React from "react";
 
 export default function Home() {
 	return (
-		<div className="home-page">
 			<main className="home">
 				<h1>You got the travel plans, we got the travel vans.</h1>
 				<p>
@@ -11,6 +10,5 @@ export default function Home() {
 				</p>
 				<button className="home">Find your van</button>
 			</main>
-		</div>
 	);
 }
