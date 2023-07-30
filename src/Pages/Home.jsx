@@ -1,11 +1,8 @@
 import React from "react";
-import Nav from "../Components/Nav";
-import Footer from "../Components/Footer";
 
 export default function Home() {
 	return (
 		<div className="home-page">
-			<Nav />
 			<main className="home">
 				<h1>You got the travel plans, we got the travel vans.</h1>
 				<p>
@@ -14,7 +11,6 @@ export default function Home() {
 				</p>
 				<button className="home">Find your van</button>
 			</main>
-			<Footer />
 		</div>
 	);
 }
