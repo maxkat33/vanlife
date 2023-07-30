@@ -5,6 +5,10 @@ import Footer from "./Components/Footer";
 import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Vans from "./Pages/Vans";
+import "./server";
+
+// I need to update the buttons to be <Link> elements
+// Update all of my css...
 
 const App = () => {
 	return (
